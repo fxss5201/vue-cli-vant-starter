@@ -13,6 +13,19 @@ export default {
   name: 'home',
   components: {
     HelloWorld
+  },
+  created () {
+    this.$toast.loading({
+      duration: 0,
+      mask: true,
+      forbidClick: true,
+      message: '加载中...',
+      loadingType: 'spinner'
+    })
+
+    setTimeout(() => {
+      this.$toast.clear()
+    }, 3000)
   }
 }
 </script>
