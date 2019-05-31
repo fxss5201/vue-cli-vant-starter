@@ -18,6 +18,7 @@ vue-cli 和 vant 结合的项目开发模板，主要内容如下（后续新增
 8. Rem 适配，使用以下两个工具:
     1. [postcss-pxtorem](https://github.com/cuth/postcss-pxtorem) 是一款 postcss 插件，用于将单位转化为 rem
     2. 设置 rem 基准值可参见 `public/index.html` 的第 10 ~ 51 行，代码引自 [TIM-手机版](https://tim.qq.com/mobile/index.html?adtag=index)
+    3. 设计图标准按照 750 * 1334 的尺寸给出，布局的时候除了 1px 其他全部按照 测量的距离 写就可以了
 
 ## 模板说明 ##
 
