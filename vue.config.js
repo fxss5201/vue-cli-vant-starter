@@ -11,7 +11,7 @@ module.exports = {
             browsers: ['Android >= 4.0', 'iOS >= 7']
           }),
           pxtorem({
-            rootValue: 100,
+            rootValue: 37.5,
             propList: ['*'],
             minPixelValue: 1
           })

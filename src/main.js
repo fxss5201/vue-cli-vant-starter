@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import './plugins/axios'
+import 'amfe-flexible'
 import { Toast } from 'vant'
 import App from './App.vue'
 import router from './router'
